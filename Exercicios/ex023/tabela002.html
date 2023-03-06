@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        tbody tr:nth-child(even){
+            background-color: lightgrey;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: grey;
+            color: white;
+        }
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+        td.num{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(199, 197, 197);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas Grandes</h1>
+        <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">49 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num"> 21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num"> 14 016 906 </td>
+            </tr>
+        
+            <td>Paraná</td>
+            <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.557.071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.602.865</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.164.788</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7.075.181</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.018.354</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4.144.597</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4.018.650</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.018.127</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.506.853</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3.484.466</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.337.357</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3.273.227</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">3.015.268</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.778.986</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.298.696</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1.777.225</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.572.866</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">881.935</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">845.731</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">605.761</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>217 983 784</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vitae fugiat itaque odit doloribus quo vero, illum sint error nostrum qui voluptatibus minus doloremque quia, vel, beatae ab animi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, sapiente quam molestiae accusantium maxime voluptas aperiam, soluta excepturi quos, velit asperiores repudiandae quis nesciunt magni? Et accusamus recusandae laudantium quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem quis cupiditate modi saepe totam explicabo autem excepturi obcaecati culpa incidunt eos, ipsum expedita esse animi. Modi libero mollitia molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, in qui adipisci vero, cupiditate corrupti tempora illo sapiente quos sed eum minima nesciunt quod ex error? Dolore voluptates rerum iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, hic voluptas pariatur velit nihil fuga! Quia tempore ullam eum expedita ipsam sint esse aliquam accusantium laborum voluptas. Incidunt, fugit blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam commodi minima voluptas atque cupiditate, non eaque totam soluta laudantium voluptatibus dolorum, id expedita, perspiciatis et distinctio tempore sunt? Aliquam, excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quasi perspiciatis, voluptatibus a cupiditate vel. Dolores voluptas libero, commodi temporibus fugit ex iste omnis delectus itaque distinctio sed veniam quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam porro cum. Similique, ex fugiat mollitia saepe laboriosam alias quasi doloribus quam, non, minima repudiandae amet in atque sequi laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil explicabo quis, distinctio sed unde placeat, odit quas ducimus totam in eaque quisquam odio aut. Perspiciatis voluptatibus cumque corporis excepturi provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aspernatur dolor necessitatibus earum provident neque ipsa atque porro eius quod perferendis, quis adipisci obcaecati nesciunt vitae sed. Quisquam, a illo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint impedit possimus esse harum officia minus odio suscipit id. Illo officiis magnam nesciunt delectus iste eos recusandae veniam officia omnis aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt impedit incidunt quae. Aliquid ullam labore consectetur, eos doloremque minus repellat officiis similique quia libero reprehenderit dolor? Atque incidunt deserunt in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam nostrum exercitationem, nobis labore quos assumenda quam laborum qui porro numquam nihil ut officiis similique molestiae ipsum nemo earum laudantium deleniti. lo</p>
+</body>
+</html>

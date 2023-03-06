@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 200px;
+           
+        }
+         tr td{
+            border: 1px solid black; 
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .others{background-image: linear-gradient(to right, aqua, yellow);}
+            
+        .A{
+            background-color: red;
+        }
+        .B{
+            background-color: blue;
+        }
+        .C{
+            background-color:fuchsia;
+        }
+        .N{
+            background-color: darkmagenta;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <tr>
+                <td colspan="6" class="A">A</td>
+                <td rowspan="4" class="B">B</td>
+            </tr>
+            <tr>
+                <td rowspan="5" class="C">C</td>
+                <td class="others">D</td>
+                <td class="others">E</td>
+                <td class="others">F</td>
+            </tr>
+            <tr>
+                <td class="others">G</td>
+                <td class="others">H</td>
+                <td class="others">I</td>
+            </tr>
+            <tr>
+                <td class="others">J</td>
+                <td class="others">L</td> 
+                <td class="others">M</td>
+            </tr>
+          <td colspan="6" class="N">N</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
